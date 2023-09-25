@@ -1,0 +1,17 @@
+.masonry {
+    column-count: 3;
+    column-gap: 1em;
+  }
+  
+  .masonry>div {
+    margin-bottom: 1em;
+    break-inside: avoid;
+    display: inline-block;
+  }
+  
+  @media only screen and (max-width: 1600px) {
+    .masonry {
+      column-count: 1;
+    }
+  }
+  
